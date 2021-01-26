@@ -53,8 +53,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/notejot/archive/2.0.0.tar.gz",
-                    "sha256" : "f3f5211738413969a7ce863928701e5658df6e419e1ef5dc28b13fc49cbf6b5e"
+                    "url" : "https://github.com/lainsce/notejot/archive/2.5.2.tar.gz",
+                    "sha256" : "c5e17248da0780bb93b801e850c511a077b0d18dfafcacc2369532627b5ab85d"
                 }
             ]
         }
