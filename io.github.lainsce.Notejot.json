@@ -10,7 +10,8 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--share=network",
-        "--share=ipc"
+        "--share=ipc",
+        "--device=dri"
     ],
     "cleanup" : [
         "/cache",
@@ -53,8 +54,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/notejot/archive/2.6.5.tar.gz",
-                    "sha256" : "331363c23483db8a7e0a31971167d3a4fbf28cdc679456b50c6e146822b0b46f"
+                    "url" : "https://github.com/lainsce/notejot/archive/2.6.6.tar.gz",
+                    "sha256" : "651778271c7b808cb906dc5b9de09c1757a64b076eaff2f7687a6b7244c1f481"
                 }
             ]
         }
