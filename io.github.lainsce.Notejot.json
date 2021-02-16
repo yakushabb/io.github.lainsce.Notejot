@@ -35,16 +35,13 @@
             "buildsystem" : "meson",
             "config-opts" : [
                 "-Dexamples=false",
-                "-Dprofiling=false",
                 "-Dglade_catalog=disabled",
-                "-Dtests=false",
-                "-Dvapi=true"
+                "-Dtests=false"
             ],
             "sources" : [
                 {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.0.tar.xz",
-                    "sha256": "a9398582f47b7d729205d6eac0c068fef35aaf249fdd57eea3724f8518d26699"
+                    "type": "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git"
                 }
             ]
         },
@@ -54,8 +51,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/notejot/archive/2.6.8.tar.gz",
-                    "sha256" : "c4dd5fc1bc7f465e0aca1072846cdae8fd5a60a534b87384fb91fdc4ac96966b"
+                    "url" : "https://github.com/lainsce/notejot/archive/2.6.9.tar.gz",
+                    "sha256" : "5a8ee717eb3b8a76e20100e076f3f6e178aef1c62093159f2ef7aa8b3ed340e7"
                 }
             ]
         }
