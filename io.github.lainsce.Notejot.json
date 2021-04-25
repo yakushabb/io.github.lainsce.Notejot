@@ -64,7 +64,7 @@
             "name" : "libadwaita",
             "buildsystem": "meson",
             "config-opts" : [
-                "-Dvapi=false",
+                "-Dvapi=true",
                 "-Dexamples=false",
                 "-Dtests=false"
             ],
