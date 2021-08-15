@@ -72,8 +72,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "branch" : "main",
-                    "commit" : "7086762ddd96c0ba29cf6675b997ffe7f553f574"
+                    "branch" : "main"
                 }
             ]
         },
@@ -83,8 +82,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/notejot/archive/3.0.4.tar.gz",
-                    "sha256" : "c3aefcd1ebd5eeac2da37dc3954ddd867b6f665df45e499f33cf208ea14aea7e"
+                    "url" : "https://github.com/lainsce/notejot/archive/3.1.0.tar.gz",
+                    "sha256" : "0f282d25344cad2085ceb1d99f9526bdcf154f652f3fc6d22b226b3504675aca"
                 }
             ]
         }
