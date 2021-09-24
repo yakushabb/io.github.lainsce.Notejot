@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Notejot",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Notejot",
     "finish-args" : [
@@ -78,8 +78,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/notejot/archive/3.1.5.tar.gz",
-                    "sha256" : "1538fe33a81d6bc350b45e39be60e2a0a783733b3af970f678df1530f7613bef"
+                    "url" : "https://github.com/lainsce/notejot/archive/3.1.6.tar.gz",
+                    "sha256" : "820cdeb08d6bf602196eb14baf672c541123475b738ff5b45e25c97446df1e47"
                 }
             ]
         }
