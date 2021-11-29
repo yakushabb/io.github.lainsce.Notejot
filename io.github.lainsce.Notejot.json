@@ -72,8 +72,8 @@
             "name": "gtk",
             "buildsystem": "meson",
             "config-opts" : [
-                    "-Dexamples=false",
-                    "-Dtests=false"
+                    "-Dbuild-examples=false",
+                    "-Dbuild-tests=false"
             ],
             "sources": [
                 {
