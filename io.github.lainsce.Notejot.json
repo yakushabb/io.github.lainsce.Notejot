@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Notejot",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Notejot",
     "finish-args" : [
@@ -28,85 +28,13 @@
     ],
     "modules" : [
         {
-            "name": "libsass",
-            "sources": [
-                {
-                    "type" : "archive",
-                    "url" : "https://github.com/sass/libsass/archive/3.6.4.tar.gz",
-                    "sha256": "f9484d9a6df60576e791566eab2f757a97fd414fce01dd41fc0a693ea5db2889"
-                },
-                {
-                    "type" : "script",
-                    "dest-filename" : "autogen.sh",
-                    "commands" : [ "autoreconf -si" ]
-                }
-            ]
-        },
-        {
-            "name": "sassc",
-            "sources": [
-                {
-                    "type" : "archive",
-                    "url" : "https://github.com/sass/sassc/archive/3.6.1.tar.gz",
-                    "sha256": "8cee391c49a102b4464f86fc40c4ceac3a2ada52a89c4c933d8348e3e4542a60"
-                },
-                {
-                    "type" : "script",
-                    "dest-filename" : "autogen.sh",
-                    "commands" : [ "autoreconf -si" ]
-                }
-            ]
-        },
-        {
-            "name": "pango",
-            "buildsystem": "meson",
-            "sources": [
-                {
-                  "type": "git",
-                  "url": "https://gitlab.gnome.org/GNOME/pango.git",
-                  "commit" : "0c80c6d0b80cce4443e9a18fad2b4bccabaf4325"
-                }
-            ]
-        },
-        {
-            "name": "gtk",
-            "buildsystem": "meson",
-            "config-opts" : [
-                    "-Dbuild-examples=false",
-                    "-Dbuild-tests=false"
-            ],
-            "sources": [
-                {
-                  "type": "git",
-                  "url": "https://gitlab.gnome.org/GNOME/gtk.git",
-                  "commit" : "e0c97e6fccc1f66dabddc21a6e8821347429e157"
-                }
-            ]
-        },
-        {
-            "name" : "libadwaita",
-            "buildsystem": "meson",
-            "config-opts" : [
-                "-Dvapi=true",
-                "-Dexamples=false",
-                "-Dtests=false"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "commit" : "071144f8fb2fcfa65af84917e8619422a7d06c42"
-                }
-            ]
-        },
-        {
             "name" : "notejot",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/notejot/archive/3.4.9.tar.gz",
-                    "sha256" : "5d907d12a8256dbee8bba73d43fa4273e0a4bfc5aba121cd6a11cb8b5e17aa2f"
+                    "url" : "https://github.com/lainsce/notejot/archive/3.5.0.tar.gz",
+                    "sha256" : "3db3edddfc052c2d87b33254a79aaa514d54b85f9ebb051d82a36c2e1fe88c38"
                 }
             ]
         }
